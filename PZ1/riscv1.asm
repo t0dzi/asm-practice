@@ -3,7 +3,7 @@ ecall
 
 mv t0, a0
 li a0, 0
-li t1, 7
+li t1, 7	#номер в группе
 beq t0, t1, equal
 j not_equal
 
